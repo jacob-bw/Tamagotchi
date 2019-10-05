@@ -1,0 +1,12 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+
+#eat {
+  border-color: gold;
+  border-style: dashed;
+  background-color: $palegold;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

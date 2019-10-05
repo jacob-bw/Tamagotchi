@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './sleep.scss';
 
 const sleepQuadrant = () => {
   let domString = '';
@@ -12,13 +13,13 @@ const sleepQuadrant = () => {
   const shortNapBtn = document.getElementById('short-nap');
 
   deepSleepBtn.addEventListener('click', () => {
-    if (energy < 100) {
+    if (energy + 60 < 100) {
       energy += 60;
       document.getElementById('sleepTotal').value = energy;
     }
   });
   shortNapBtn.addEventListener('click', () => {
-    if (energy < 100) {
+    if (energy + 50 < 100) {
       energy += 50;
       document.getElementById('sleepTotal').value = energy;
     }

@@ -1,0 +1,11 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+#sleep {
+  border-color: lightblue;
+  border-style: inset;
+  background: $coolgray;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
