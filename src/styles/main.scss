@@ -1,3 +1,27 @@
-body {
-    background-color: gold;
+.quad {
+    height: 50%;
+    width: 50%; 
+}
+
+#eat {
+    border-color: gold;
+    border-style: dashed;
+    background-color: lightgoldenrodyellow;
+}
+#play {
+    border-color: green;
+    border-style: dotted;
+    background-color: lightseagreen;
+}
+
+#fight {
+    border-color: pink;
+    border-style: solid;
+    background-color:red
+    
+}
+#sleep {
+    border-color: lightblue;
+    border-style: inset;
+  background: blue;
 }
