@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './fight.scss';
 
 const fightQuadrant = () => {
   let domString = '';
@@ -17,15 +18,13 @@ const fightQuadrant = () => {
     if (strength >= 0) {
       strength -= 10;
       document.getElementById('fightTotal').value = strength;
-      console.log(strength);
     }
   });
 
   runBtn.addEventListener('click', () => {
-    if (strength <= 100) {
+    if (strength + 1 < 100) {
       strength += 1;
       document.getElementById('fightTotal').value = strength;
-      console.log(strength);
     }
   });
 };

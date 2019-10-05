@@ -1,0 +1,12 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+
+#play {
+  border-color: green;
+  border-style: dotted;
+  background-color: $mellowgreen;
+  position: fixed;
+  top: 0;
+  left: 50%;
+}

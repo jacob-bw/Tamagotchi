@@ -1,0 +1,13 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+
+#fight {
+  border-color: pink;
+  border-style: solid;
+  background-color: $lightishred;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  
+}

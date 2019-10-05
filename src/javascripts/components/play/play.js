@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './play.scss';
 
 const playQuadrant = () => {
   let domString = '';
@@ -12,13 +13,13 @@ const playQuadrant = () => {
   const lessFunBtn = document.getElementById('less-fun');
 
   maxFunBtn.addEventListener('click', () => {
-    if (fun < 100) {
+    if (fun + 50 < 101) {
       fun += 50;
       document.getElementById('playTotal').value = fun;
     }
   });
   lessFunBtn.addEventListener('click', () => {
-    if (fun < 100) {
+    if (fun + 2 < 101) {
       fun += 2;
       document.getElementById('playTotal').value = fun;
     }
