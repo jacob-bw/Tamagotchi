@@ -5,7 +5,7 @@
 > You can control various actions and view the effects these choices have on your pet.
 
 ## Screenshots
-![screenshot of Tamagotchi]()
+![screenshot of Tamagotchi](https://raw.githubusercontent.com/jacob-bw/Tamagotchi/master/src/images/screenshots/tamagotchi-screenshot.png)
 
 # Instructions on How to Run
 * clone down this project
