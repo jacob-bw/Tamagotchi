@@ -2,10 +2,14 @@
 @import '../../../styles/variables';
 
 #sleep {
-  border-color: lightblue;
-  border-style: inset;
   background: $coolgray;
   position: fixed;
   top: 50%;
   left: 50%;
+
+  .sleep-zone {
+    position: fixed;
+    right: 10px;
+    top: 88%;
+  }
 }
