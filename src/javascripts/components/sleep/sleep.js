@@ -5,9 +5,11 @@ const sleepQuadrant = () => {
   let domString = '';
   let energy = 100;
   domString = `
+  <div class="sleep-zone">
     <p><progress value="${energy}" max="100" id="sleepTotal"{energy</progress></p>
     <p><button class='primary' id='deep-sleep'>Deep Sleep</button> <button class ='primary' id='short-nap'>Short Nap</button></p>
-  `;
+  </div>
+    `;
   utilities.printToDom(domString, 'sleep');
   const deepSleepBtn = document.getElementById('deep-sleep');
   const shortNapBtn = document.getElementById('short-nap');

@@ -5,9 +5,11 @@ const fightQuadrant = () => {
   let domString = '';
   let strength = 100;
   domString = `
-    <p><progress value="${strength}" max="100" id="fightTotal"{strength</progress></p>
-    <p><button class='primary' id='run'>Run</button> <button class ='primary' id='fight-btn'>Fight</button></p>
-  `;
+    <div class="fight-zone">
+      <p><progress value="${strength}" max="100" id="fightTotal"{strength</progress></p>
+      <p><button class='primary' id='run'>Run</button> <button class ='primary' id='fight-btn'>Fight</button></p>
+    </div>
+    `;
 
   utilities.printToDom(domString, 'fight');
 

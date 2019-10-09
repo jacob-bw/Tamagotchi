@@ -3,11 +3,15 @@
 
 
 #fight {
-  border-color: pink;
-  border-style: solid;
   background-color: $lightishred;
   position: fixed;
   top: 50%;
   left: 0;
-  
-}
+    
+  .fight-zone {
+    position: fixed;
+    top: 88%;
+    left: 10px;
+    
+    }
+  }

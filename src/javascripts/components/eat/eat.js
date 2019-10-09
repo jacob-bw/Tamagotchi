@@ -5,10 +5,10 @@ const eatQuadrant = () => {
   let domString = '';
   let full = 100;
   domString = `
-    <div class="eat-buttons">
-      <p><progress value="${full}" max="100" id="eatTotal">Full</progress></p>
-      <p><button class='primary' id='healthy'>Granola</button> <button class ='primary' id='junk'>Cheetos</button></p>
-    </div>
+      <div class="eat-buttons">
+        <p><progress value="${full}" max="100" id="eatTotal">Full</progress></p>
+        <p><button class='primary' id='healthy'>Granola</button> <button class ='primary' id='junk'>Cheetos</button></p>
+      </div>
       `;
   utilities.printToDom(domString, 'eat');
   const healthyBtn = document.getElementById('healthy');
