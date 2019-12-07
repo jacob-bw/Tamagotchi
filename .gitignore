@@ -1,6 +1,7 @@
-.vscode/
 .DS_Store
-package-lock.json
-node_modules/
-dist/
+.firebase/
+.vscode/
 build/
+dist/
+node_modules/
+package-lock.json
