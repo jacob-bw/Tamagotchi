@@ -7,7 +7,7 @@ const sleepQuadrant = () => {
   domString = `
   <div class="sleep-zone">
     <p><progress value="${energy}" max="100" id="sleepTotal"{energy</progress></p>
-    <p><button class='primary' id='deep-sleep'>Deep Sleep</button> <button class ='primary' id='short-nap'>Short Nap</button></p>
+    <p><button class='primary' id='deep-sleep'>Deep Sleep</button> <button class ='primary' id='short-nap'>Wake up Early</button></p>
   </div>
     `;
   utilities.printToDom(domString, 'sleep');
@@ -15,14 +15,14 @@ const sleepQuadrant = () => {
   const shortNapBtn = document.getElementById('short-nap');
 
   deepSleepBtn.addEventListener('click', () => {
-    if (energy + 60 < 100) {
-      energy += 60;
+    if (energy + 50 < 100) {
+      energy += 50;
       document.getElementById('sleepTotal').value = energy;
     }
   });
   shortNapBtn.addEventListener('click', () => {
-    if (energy + 50 < 100) {
-      energy += 50;
+    if (energy + 15 < 100) {
+      energy -= 25;
       document.getElementById('sleepTotal').value = energy;
     }
   });

@@ -15,14 +15,14 @@ const playQuadrant = () => {
   const lessFunBtn = document.getElementById('less-fun');
 
   maxFunBtn.addEventListener('click', () => {
-    if (fun + 50 < 101) {
-      fun += 50;
+    if (fun + 25 < 101) {
+      fun += 25;
       document.getElementById('playTotal').value = fun;
     }
   });
   lessFunBtn.addEventListener('click', () => {
-    if (fun + 2 < 101) {
-      fun += 2;
+    if (fun + 10 < 101) {
+      fun -= 10;
       document.getElementById('playTotal').value = fun;
     }
   });
