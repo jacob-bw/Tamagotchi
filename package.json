@@ -1,5 +1,5 @@
 {
-  "name": "Tamagotchi",
+  "name": "Digital Pet",
   "version": "1.0.0",
   "description": "> This is a single page app that allows you to play with a digital pet. \r > You can control various actions and view the effects these choices have on your pet.",
   "main": "src/javascripts/main.js",
